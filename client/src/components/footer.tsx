@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import solrLogo from "@assets/Solr_Logos-01 copy_1751386809292.png";
 
 function Footer() {
   return (
@@ -74,7 +73,7 @@ function Footer() {
             >
               <span>powered by</span>
               <img 
-                src={solrLogo} 
+                src="/assets/logos/solr-ai-logo-white.svg" 
                 alt="SOLR AI Logo" 
                 className="h-12 w-auto"
               />
