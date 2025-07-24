@@ -1,9 +1,9 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build", 
   "outputDirectory": "dist/public",
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs20.x"
     }
   },
   "rewrites": [
@@ -16,7 +16,7 @@
       "destination": "/api/assessment"
     },
     {
-      "source": "/api/leads",
+      "source": "/api/leads", 
       "destination": "/api/leads"
     },
     {
