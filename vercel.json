@@ -8,8 +8,20 @@
   },
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
+      "source": "/api/chat",
+      "destination": "/api/chat"
+    },
+    {
+      "source": "/api/assessment",
+      "destination": "/api/assessment"
+    },
+    {
+      "source": "/api/leads",
+      "destination": "/api/leads"
+    },
+    {
+      "source": "/api/health",
+      "destination": "/api/health"
     },
     {
       "source": "/(.*)",
