@@ -73,7 +73,7 @@ function Footer() {
             >
               <span>powered by</span>
               <img 
-                src="/assets/logos/solr-ai-logo-white.png" 
+                src="client/public/assets/logos/solr-ai-logo-white.png" 
                 alt="SOLR AI Logo" 
                 className="h-12 w-auto"
               />
